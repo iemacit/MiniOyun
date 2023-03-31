@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8F4DC00"
+    tools:context="Tahmin">
+
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="412dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="133dp"
+            android:layout_height="70sp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="2"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="3"
+            android:textSize="20sp"
+             />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="412dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="133dp"
+            android:layout_height="70sp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="6"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="412dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921"
+        >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="133dp"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+
+            android:text="7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="9"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="408dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        >
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="138dp"
+            android:layout_height="73dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3186E1"
+            android:onClick="onClickbutton"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/onayla"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="TAHMİN ET"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/temizle"
+            android:layout_width="133dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F4511E"
+            android:onClick="onClickbutton"
+            android:text="C"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/kalanHak"
+        android:layout_width="191dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Kalan Hakkınız : 10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/ipucu"
+        android:layout_width="283dp"
+        android:layout_height="99dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <EditText
+        android:id="@+id/tahminEt"
+        android:layout_width="278dp"
+        android:layout_height="65dp"
+        android:ems="20"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
